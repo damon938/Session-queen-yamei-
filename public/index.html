@@ -7,16 +7,21 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<audio id="bgSong" src="baile.mp3" autoplay loop></audio>
+<!-- Musique de fond depuis URL -->
+<audio id="bgSong" src="https://h.uguu.se/OhnZZajM.mp3" autoplay loop></audio>
 
 <div class="container">
-    <img src="yamada.png" class="logo" alt="QUEEN YAMEI MD">
+    <!-- Logo depuis URL -->
+    <img src="https://files.catbox.moe/uomk34.jpg" class="logo" alt="QUEEN YAMEI MD">
     <h1>👑 QUEEN YAMEI MD</h1>
     <h2>Générateur de session</h2>
 
+    <h3>Obtenir votre Pair Code</h3>
+    <input type="text" id="userNumber" placeholder="Entrez votre numéro (+2250716853728)">
     <button id="pairBtn">✨ Générer Pair Code</button>
     <p id="pairCode"></p>
 
+    <h3>QR Code du Bot</h3>
     <button id="qrBtn">📱 Générer QR Code</button>
     <img id="qrImage" src="" alt="QR Code" />
 </div>
