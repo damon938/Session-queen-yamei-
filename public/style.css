@@ -25,6 +25,14 @@ body {
     animation: rotate 8s linear infinite;
 }
 
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
 button {
     padding: 12px 25px;
     margin: 10px;
@@ -52,4 +60,4 @@ button:hover { background: #ff1493; }
 @keyframes rotate {
     0% { transform: rotate(0deg);}
     100% { transform: rotate(360deg);}
-  }
+}
